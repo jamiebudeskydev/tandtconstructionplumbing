@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 const navLinks = [
   { href: "/services", label: "Services" },
@@ -32,7 +33,7 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between md:h-20">
           {/* Logo */}
-          <a href="/" className="flex items-center gap-3 group">
+          <Link href="/" className="flex items-center gap-3 group">
             <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#C84B31] transition-transform group-hover:scale-105">
               <span className="font-[var(--font-heading)] text-xl font-bold text-white">
                 T&T
@@ -46,18 +47,18 @@ export default function Header() {
                 & Plumbing
               </p>
             </div>
-          </a>
+          </Link>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className="font-[var(--font-body)] text-sm font-medium tracking-wide text-[#B8C0D2] transition-colors hover:text-[#E07A5F] uppercase"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
             <a
               href="tel:+17177767319"
@@ -93,14 +94,14 @@ export default function Header() {
         <div className="md:hidden bg-[#141B2D]/98 backdrop-blur-md border-t border-white/10">
           <div className="px-4 py-4 space-y-1">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
                 className="block rounded-lg px-4 py-3 font-[var(--font-body)] text-base font-medium text-[#D8DCE8] hover:bg-white/5 hover:text-[#E07A5F] transition-colors"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
             <div className="pt-2">
               <a

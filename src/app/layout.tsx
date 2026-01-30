@@ -17,6 +17,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://tandtconstructionplumbing.com"),
   title: "T & T Construction & Plumbing | Newville, PA | Licensed Contractor Since 2006",
   description:
     "Family-owned construction and plumbing serving Newville, Carlisle, Shippensburg & Cumberland Valley since 2006. Licensed PA contractor. Plumbing, remodeling, electrical, bathrooms, decks & more. Free estimates. Call (717) 776-7319.",
@@ -99,6 +100,10 @@ const jsonLd = {
   foundingDate: "2006",
   description:
     "Family-owned construction and plumbing serving the Cumberland Valley since 2006.",
+  sameAs: [
+    "https://www.homeadvisor.com/rated.TandTConstructionandPlumbing.67498735.html",
+    "https://www.buildzoom.com/contractor/t-t-construction-plumbing",
+  ],
   areaServed: [
     "Newville",
     "Carlisle",

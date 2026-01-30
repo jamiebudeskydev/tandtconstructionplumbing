@@ -22,7 +22,7 @@ export default function ContactPage() {
               Contact Us
             </p>
             <h1 className="mt-3 font-[var(--font-heading)] text-4xl text-white sm:text-5xl">
-              Get in touch
+              Contact T & T Construction & Plumbing
             </h1>
             <p className="mt-6 max-w-2xl font-[var(--font-body)] text-lg text-[#8E9AB3]">
               Call us for a free estimate, email us your project details, or stop

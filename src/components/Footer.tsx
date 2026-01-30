@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -51,13 +53,13 @@ export default function Footer() {
                 { href: "/faq", label: "FAQ" },
                 { href: "/contact", label: "Contact" },
               ].map((link) => (
-                <a
+                <Link
                   key={link.href}
                   href={link.href}
                   className="block font-[var(--font-body)] text-sm text-[#647291] transition-colors hover:text-[#E07A5F]"
                 >
                   {link.label}
-                </a>
+                </Link>
               ))}
             </nav>
           </div>
@@ -76,12 +78,13 @@ export default function Footer() {
                 "Emergency Repair",
                 "Free Estimates",
               ].map((item) => (
-                <span
+                <Link
                   key={item}
-                  className="block font-[var(--font-body)] text-sm text-[#647291]"
+                  href="/services"
+                  className="block font-[var(--font-body)] text-sm text-[#647291] transition-colors hover:text-[#E07A5F]"
                 >
                   {item}
-                </span>
+                </Link>
               ))}
             </nav>
           </div>
@@ -98,20 +101,20 @@ export default function Footer() {
                 { href: "/areas/camp-hill-pa", label: "Camp Hill" },
                 { href: "/areas/shippensburg-pa", label: "Shippensburg" },
               ].map((link) => (
-                <a
+                <Link
                   key={link.href}
                   href={link.href}
                   className="block font-[var(--font-body)] text-sm text-[#647291] transition-colors hover:text-[#E07A5F]"
                 >
                   {link.label}
-                </a>
+                </Link>
               ))}
-              <a
+              <Link
                 href="/areas"
                 className="block font-[var(--font-body)] text-sm font-medium text-[#E07A5F] transition-colors hover:text-[#C84B31]"
               >
                 All Areas &rarr;
-              </a>
+              </Link>
             </nav>
           </div>
         </div>

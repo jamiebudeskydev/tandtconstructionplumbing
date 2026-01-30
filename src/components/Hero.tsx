@@ -24,12 +24,14 @@ export default function Hero() {
 
           {/* Headline */}
           <h1 className="animate-fade-in-up delay-100 font-[var(--font-heading)] text-4xl leading-tight text-white sm:text-5xl md:text-6xl lg:text-7xl" style={{ animationFillMode: "backwards" }}>
-            Built on
-            <span className="text-copper-gradient"> Trust.</span>
+            <span className="text-copper-gradient">Construction</span> &{" "}
+            <span className="text-copper-gradient">Plumbing</span>
             <br />
-            Backed by{" "}
-            <span className="text-copper-gradient">Craft.</span>
+            in the Cumberland Valley
           </h1>
+          <p className="animate-fade-in-up delay-100 mt-3 font-[var(--font-heading)] text-xl text-copper-gradient sm:text-2xl" style={{ animationFillMode: "backwards" }}>
+            Built on Trust. Backed by Craft.
+          </p>
 
           {/* Subheadline */}
           <p className="animate-fade-in-up delay-200 mt-6 max-w-xl font-[var(--font-body)] text-lg leading-relaxed text-[#8E9AB3] md:text-xl" style={{ animationFillMode: "backwards" }}>
