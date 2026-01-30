@@ -78,12 +78,12 @@ export const SERVICE_AREAS: ServiceArea[] = [
       },
     ],
     metaTitle:
-      "Plumber in Carlisle, PA | Electrician & General Contractor Since 2006",
+      "Plumber in Carlisle, PA | Electrician & Contractor",
     metaDescription:
       "Licensed plumber in Carlisle, PA — bathroom remodeling, drain cleaning, electrician services, water heater repair & general contractor work. 4.8-star rated, family-owned since 2006. Free estimates — (717) 776-7319.",
     contractorMeta: {
       metaTitle:
-        "General Contractor in Carlisle, PA | Remodeling & Construction Since 2006",
+        "Contractor in Carlisle, PA | Remodeling & Construction",
       metaDescription:
         "Licensed general contractor in Carlisle, PA — bathroom remodeling, kitchen renovation, home additions, deck building, basement finishing & drywall. Family-owned since 2006. Free estimates — (717) 776-7319.",
       localContext:
@@ -171,12 +171,12 @@ export const SERVICE_AREAS: ServiceArea[] = [
       },
     ],
     metaTitle:
-      "Plumber in Mechanicsburg, PA | Electrician, Handyman & Remodeling",
+      "Plumber in Mechanicsburg, PA | Electrician & Handyman",
     metaDescription:
       "Licensed plumber in Mechanicsburg, PA — electrician, handyman, bathroom remodeling, drain cleaning, sump pumps & general contractor. 4.8-star rated since 2006. Free estimates — (717) 776-7319.",
     contractorMeta: {
       metaTitle:
-        "General Contractor in Mechanicsburg, PA | Remodeling & Home Additions",
+        "Contractor in Mechanicsburg, PA | Remodeling & Additions",
       metaDescription:
         "Licensed general contractor in Mechanicsburg, PA — home remodeling, bathroom & kitchen renovation, additions, basement finishing, decks & handyman services. Family-owned since 2006. Free estimates — (717) 776-7319.",
       localContext:
@@ -264,12 +264,12 @@ export const SERVICE_AREAS: ServiceArea[] = [
       },
     ],
     metaTitle:
-      "Plumber in Camp Hill, PA | Electrician, Handyman & Remodeling",
+      "Plumber in Camp Hill, PA | Electrician & Handyman",
     metaDescription:
       "Licensed plumber in Camp Hill, PA — electrician, handyman, bathroom & kitchen remodeling, drain cleaning, water heater service. Family-owned since 2006. Free estimates — (717) 776-7319.",
     contractorMeta: {
       metaTitle:
-        "General Contractor in Camp Hill, PA | Kitchen & Bathroom Remodeling",
+        "Contractor in Camp Hill, PA | Kitchen & Bath Remodeling",
       metaDescription:
         "Licensed general contractor in Camp Hill, PA — kitchen remodeling, bathroom renovation, home additions, handyman services, deck building & electrical upgrades. Since 2006. Free estimates — (717) 776-7319.",
       localContext:
@@ -352,12 +352,12 @@ export const SERVICE_AREAS: ServiceArea[] = [
       },
     ],
     metaTitle:
-      "Plumber in Shippensburg, PA | Electrician & Contractor Since 2006",
+      "Plumber in Shippensburg, PA | Electrician & Contractor",
     metaDescription:
       "Licensed plumber in Shippensburg, PA — electrician, drain cleaning, water heater replacement, bathroom remodels & emergency plumbing. 15 minutes from our shop. Free estimates — (717) 776-7319.",
     contractorMeta: {
       metaTitle:
-        "General Contractor in Shippensburg, PA | Remodeling & Construction",
+        "Contractor in Shippensburg, PA | Remodeling & Decks",
       metaDescription:
         "Licensed general contractor in Shippensburg, PA — bathroom remodeling, drywall, painting, deck building & rental property renovation. Just 15 minutes from our shop. Free estimates — (717) 776-7319.",
       localContext:
@@ -442,12 +442,12 @@ export const SERVICE_AREAS: ServiceArea[] = [
       },
     ],
     metaTitle:
-      "Plumber in Boiling Springs, PA | Well Pump & Bathroom Remodeling",
+      "Plumber in Boiling Springs, PA | Well Pump & Remodel",
     metaDescription:
       "Licensed plumber in Boiling Springs, PA — well pump service, water treatment, bathroom remodeling & historic home plumbing. Just 12 miles from our shop. Free estimates — (717) 776-7319.",
     contractorMeta: {
       metaTitle:
-        "Contractor in Boiling Springs, PA | Historic Home Renovation & Remodeling",
+        "Contractor in Boiling Springs, PA | Historic Renovation",
       metaDescription:
         "Licensed contractor in Boiling Springs, PA — historic home renovation, bathroom remodeling, deck building & custom construction. Experienced with the historic district. Free estimates — (717) 776-7319.",
       localContext:
@@ -529,12 +529,12 @@ export const SERVICE_AREAS: ServiceArea[] = [
       },
     ],
     metaTitle:
-      "Plumber in Mount Holly Springs, PA | Sump Pumps & Drain Service",
+      "Plumber in Mount Holly Springs, PA | Sump Pumps & Drains",
     metaDescription:
       "Licensed plumber in Mount Holly Springs, PA — sump pump installation, drain clearing, well pump service, bathroom remodeling & deck building. 8 miles from our shop. Free estimates — (717) 776-7319.",
     contractorMeta: {
       metaTitle:
-        "Contractor in Mount Holly Springs, PA | Deck Building & Remodeling",
+        "Contractor in Mount Holly Springs, PA | Decks & Remodel",
       metaDescription:
         "Licensed contractor in Mount Holly Springs, PA — deck building, bathroom remodeling, foundation work, basement waterproofing & custom construction. 8 miles from our shop. Free estimates — (717) 776-7319.",
       localContext:
@@ -617,12 +617,12 @@ export const SERVICE_AREAS: ServiceArea[] = [
       },
     ],
     metaTitle:
-      "Plumber in Enola, PA | Water Heater & Home Remodeling Since 2006",
+      "Plumber in Enola, PA | Water Heater & Remodeling",
     metaDescription:
       "Licensed plumber in Enola, PA — water heater replacement, home remodeling, bathroom renovation, drain clearing & electrical upgrades. Family-owned since 2006. Free estimates — (717) 776-7319.",
     contractorMeta: {
       metaTitle:
-        "General Contractor in Enola, PA | Home Remodeling & Renovation",
+        "Contractor in Enola, PA | Remodeling & Renovation",
       metaDescription:
         "Licensed general contractor in Enola, PA — home remodeling, bathroom renovation, basement finishing, electrical panel upgrades & drywall. Family-owned since 2006. Free estimates — (717) 776-7319.",
       localContext:
@@ -706,12 +706,12 @@ export const SERVICE_AREAS: ServiceArea[] = [
       },
     ],
     metaTitle:
-      "Plumber in New Cumberland, PA | Kitchen & Bathroom Remodeling",
+      "Plumber in New Cumberland, PA | Kitchen & Bath Remodel",
     metaDescription:
       "Licensed plumber in New Cumberland, PA — kitchen remodeling, bathroom renovation, sewer line repair, water line service & home additions. 4.8-star rated since 2006. Free estimates — (717) 776-7319.",
     contractorMeta: {
       metaTitle:
-        "General Contractor in New Cumberland, PA | Kitchen Remodeling & Additions",
+        "Contractor in New Cumberland, PA | Remodeling & Additions",
       metaDescription:
         "Licensed general contractor in New Cumberland, PA — kitchen remodeling, home additions, bathroom renovation, basement finishing & deck building. Since 2006. Free estimates — (717) 776-7319.",
       localContext:
@@ -794,7 +794,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
       },
     ],
     metaTitle:
-      "Plumber in Lemoyne, PA | Water Heater & Drain Service Since 2006",
+      "Plumber in Lemoyne, PA | Water Heater & Drain Service",
     metaDescription:
       "Licensed plumber in Lemoyne, PA — water heater replacement, drain clearing, bathroom remodeling, electrical upgrades & emergency plumbing. Family-owned since 2006. Free estimates — (717) 776-7319.",
     contractorMeta: {
@@ -883,12 +883,12 @@ export const SERVICE_AREAS: ServiceArea[] = [
       },
     ],
     metaTitle:
-      "Plumber in Dillsburg, PA | Bathroom Remodeling & Drain Service",
+      "Plumber in Dillsburg, PA | Bath Remodel & Drain Service",
     metaDescription:
       "Licensed plumber in Dillsburg, PA — bathroom remodeling, water heater replacement, drain clearing, deck building & drywall repair. Serving northern York County since 2006. Free estimates — (717) 776-7319.",
     contractorMeta: {
       metaTitle:
-        "Contractor in Dillsburg, PA | Bathroom Remodeling & Deck Building",
+        "Contractor in Dillsburg, PA | Remodeling & Decks",
       metaDescription:
         "Licensed contractor in Dillsburg, PA — bathroom remodeling, deck building, drywall & painting, kitchen renovation & general construction. Serving northern York County. Free estimates — (717) 776-7319.",
       localContext:
@@ -968,12 +968,12 @@ export const SERVICE_AREAS: ServiceArea[] = [
       },
     ],
     metaTitle:
-      "Plumber in Shiremanstown, PA | Bathroom Remodeling & Electrical",
+      "Plumber in Shiremanstown, PA | Remodeling & Electrical",
     metaDescription:
       "Licensed plumber in Shiremanstown, PA — bathroom remodeling, drain clearing, water heater replacement, electrical upgrades & plumbing repair. Family-owned since 2006. Free estimates — (717) 776-7319.",
     contractorMeta: {
       metaTitle:
-        "Contractor in Shiremanstown, PA | Bathroom Remodeling & Renovation",
+        "Contractor in Shiremanstown, PA | Remodeling & Renovation",
       metaDescription:
         "Licensed contractor in Shiremanstown, PA — bathroom remodeling, electrical upgrades, drywall, painting & general renovation. Between Mechanicsburg & Camp Hill. Free estimates — (717) 776-7319.",
       localContext:
@@ -1053,12 +1053,12 @@ export const SERVICE_AREAS: ServiceArea[] = [
       },
     ],
     metaTitle:
-      "Plumber in Newburg, PA | Well Pump & Emergency Plumbing Service",
+      "Plumber in Newburg, PA | Well Pump & Emergency Service",
     metaDescription:
       "Licensed plumber in Newburg, PA — well pump service, water treatment, emergency plumbing, bathroom remodeling & deck building. Just 9 miles from our shop. Free estimates — (717) 776-7319.",
     contractorMeta: {
       metaTitle:
-        "Contractor in Newburg, PA | Deck Building & Bathroom Remodeling",
+        "Contractor in Newburg, PA | Decks & Bath Remodeling",
       metaDescription:
         "Licensed contractor in Newburg, PA — deck building, bathroom remodeling, custom carpentry, drywall & painting. Just 9 miles from our shop. Free estimates — (717) 776-7319.",
       localContext:
@@ -1139,12 +1139,12 @@ export const SERVICE_AREAS: ServiceArea[] = [
       },
     ],
     metaTitle:
-      "Plumber in Plainfield, PA | Well Pump, Additions & Deck Building",
+      "Plumber in Plainfield, PA | Well Pump & Additions",
     metaDescription:
       "Licensed plumber in Plainfield, PA — well pump service, home additions, deck building, drain clearing & emergency plumbing. Just 6 miles from our shop. Free estimates — (717) 776-7319.",
     contractorMeta: {
       metaTitle:
-        "Contractor in Plainfield, PA | Home Additions & Deck Building",
+        "Contractor in Plainfield, PA | Additions & Decks",
       metaDescription:
         "Licensed contractor in Plainfield, PA — home additions, deck building, bathroom remodeling, custom carpentry & general construction. Just 6 miles from our shop. Free estimates — (717) 776-7319.",
       localContext:
@@ -1317,7 +1317,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
       "Licensed plumber in Wormleysburg, PA — bathroom remodeling, kitchen renovation, water heater replacement, drain clearing & electrical upgrades. Family-owned since 2006. Free estimates — (717) 776-7319.",
     contractorMeta: {
       metaTitle:
-        "General Contractor in Wormleysburg, PA | Kitchen & Bathroom Remodeling",
+        "Contractor in Wormleysburg, PA | Kitchen & Bath Remodel",
       metaDescription:
         "Licensed general contractor in Wormleysburg, PA — kitchen remodeling, bathroom renovation, Victorian home restoration, electrical upgrades & drywall. Since 2006. Free estimates — (717) 776-7319.",
       localContext:
