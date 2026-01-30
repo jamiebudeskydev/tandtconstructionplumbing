@@ -51,11 +51,11 @@ export default function AboutPage() {
       <Header />
       <main>
         {/* Page hero */}
-        <section className="relative pt-32 pb-20 bg-[#1a1d23] overflow-hidden">
+        <section className="relative pt-32 pb-20 bg-[#141B2D] overflow-hidden">
           <div className="absolute inset-0 stripe-pattern opacity-20" />
-          <div className="absolute -top-40 -right-40 h-[500px] w-[500px] rounded-full bg-[#B87333]/8 blur-[100px]" />
+          <div className="absolute -top-40 -right-40 h-[500px] w-[500px] rounded-full bg-[#C84B31]/8 blur-[100px]" />
           <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <p className="font-[var(--font-body)] text-sm font-semibold uppercase tracking-widest text-[#B87333]">
+            <p className="font-[var(--font-body)] text-sm font-semibold uppercase tracking-widest text-[#C84B31]">
               About Us
             </p>
             <h1 className="mt-3 font-[var(--font-heading)] text-4xl text-white sm:text-5xl md:text-6xl">
@@ -63,7 +63,7 @@ export default function AboutPage() {
               <br />
               <span className="text-copper-gradient">A shared craft.</span>
             </h1>
-            <p className="mt-6 max-w-2xl font-[var(--font-body)] text-lg text-[#9ca1af] leading-relaxed">
+            <p className="mt-6 max-w-2xl font-[var(--font-body)] text-lg text-[#8E9AB3] leading-relaxed">
               T & T is Tim & Timmy — a father-and-son team based in Walnut
               Bottom, PA. For 20 years they&apos;ve built a reputation on
               showing up early, doing the job right, and treating every
@@ -77,10 +77,10 @@ export default function AboutPage() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="grid gap-16 lg:grid-cols-2 items-start">
               <div>
-                <h2 className="font-[var(--font-heading)] text-3xl text-[#1a1d23] sm:text-4xl">
+                <h2 className="font-[var(--font-heading)] text-3xl text-[#141B2D] sm:text-4xl">
                   The story behind T & T
                 </h2>
-                <div className="mt-6 space-y-5 font-[var(--font-body)] text-base leading-relaxed text-[#4a4e5a]">
+                <div className="mt-6 space-y-5 font-[var(--font-body)] text-base leading-relaxed text-[#45506B]">
                   <p>
                     Tim Barrick didn&apos;t start T & T Construction &
                     Plumbing to build an empire. He started it because he&apos;d
@@ -119,45 +119,45 @@ export default function AboutPage() {
 
               {/* Visual element */}
               <div className="space-y-6">
-                <div className="rounded-2xl bg-[#1a1d23] p-10 relative overflow-hidden">
+                <div className="rounded-2xl bg-[#141B2D] p-10 relative overflow-hidden">
                   <div className="absolute inset-0 stripe-pattern opacity-20" />
                   <div className="relative text-center">
-                    <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-2xl bg-[#B87333]/20 mb-6">
-                      <span className="font-[var(--font-heading)] text-4xl text-[#B87333]">T&T</span>
+                    <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-2xl bg-[#C84B31]/20 mb-6">
+                      <span className="font-[var(--font-heading)] text-4xl text-[#C84B31]">T&T</span>
                     </div>
                     <p className="font-[var(--font-heading)] text-2xl text-white">Tim & Timmy Barrick</p>
-                    <p className="mt-2 font-[var(--font-body)] text-sm text-[#9ca1af]">Father & Son &bull; Walnut Bottom, PA</p>
+                    <p className="mt-2 font-[var(--font-body)] text-sm text-[#8E9AB3]">Father & Son &bull; Walnut Bottom, PA</p>
                     <div className="mt-6 flex justify-center gap-8">
                       <div>
-                        <p className="font-[var(--font-heading)] text-3xl text-[#B87333]">40+</p>
-                        <p className="font-[var(--font-body)] text-xs text-[#6b7080]">Years Experience</p>
+                        <p className="font-[var(--font-heading)] text-3xl text-[#C84B31]">40+</p>
+                        <p className="font-[var(--font-body)] text-xs text-[#647291]">Years Experience</p>
                       </div>
-                      <div className="h-12 w-px bg-[#353842]" />
+                      <div className="h-12 w-px bg-[#2D3554]" />
                       <div>
-                        <p className="font-[var(--font-heading)] text-3xl text-[#B87333]">2006</p>
-                        <p className="font-[var(--font-body)] text-xs text-[#6b7080]">Founded</p>
+                        <p className="font-[var(--font-heading)] text-3xl text-[#C84B31]">2006</p>
+                        <p className="font-[var(--font-body)] text-xs text-[#647291]">Founded</p>
                       </div>
-                      <div className="h-12 w-px bg-[#353842]" />
+                      <div className="h-12 w-px bg-[#2D3554]" />
                       <div>
-                        <p className="font-[var(--font-heading)] text-3xl text-[#B87333]">50+</p>
-                        <p className="font-[var(--font-body)] text-xs text-[#6b7080]">Reviews</p>
+                        <p className="font-[var(--font-heading)] text-3xl text-[#C84B31]">50+</p>
+                        <p className="font-[var(--font-body)] text-xs text-[#647291]">Reviews</p>
                       </div>
                     </div>
                   </div>
                 </div>
 
                 {/* Quote */}
-                <div className="rounded-2xl border border-[#e2e5eb] bg-[#f8f9fa] p-8">
-                  <svg className="h-8 w-8 text-[#B87333]/30" fill="currentColor" viewBox="0 0 24 24">
+                <div className="rounded-2xl border border-[#D8DCE8] bg-[#F4F5F7] p-8">
+                  <svg className="h-8 w-8 text-[#C84B31]/30" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
                   </svg>
-                  <blockquote className="mt-4 font-[var(--font-body)] text-base leading-relaxed text-[#4a4e5a] italic">
+                  <blockquote className="mt-4 font-[var(--font-body)] text-base leading-relaxed text-[#45506B] italic">
                     &ldquo;They are the best and local. I guarantee you will not be
                     disappointed. They have just about remodeled my entire home and
                     they do everything — plumbing, electrical, construction, just
                     name it.&rdquo;
                   </blockquote>
-                  <p className="mt-4 font-[var(--font-body)] text-sm font-semibold text-[#1a1d23]">
+                  <p className="mt-4 font-[var(--font-body)] text-sm font-semibold text-[#141B2D]">
                     — D.E., Nextdoor
                   </p>
                 </div>
@@ -167,13 +167,13 @@ export default function AboutPage() {
         </section>
 
         {/* Values */}
-        <section className="py-24 bg-[#f8f9fa]">
+        <section className="py-24 bg-[#F4F5F7]">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-2xl mx-auto">
-              <h2 className="font-[var(--font-heading)] text-3xl text-[#1a1d23] sm:text-4xl">
+              <h2 className="font-[var(--font-heading)] text-3xl text-[#141B2D] sm:text-4xl">
                 How we work
               </h2>
-              <p className="mt-4 font-[var(--font-body)] text-lg text-[#6b7080]">
+              <p className="mt-4 font-[var(--font-body)] text-lg text-[#647291]">
                 These aren&apos;t marketing slogans — they&apos;re pulled
                 directly from what 50+ customers have said about working with us.
               </p>
@@ -181,13 +181,13 @@ export default function AboutPage() {
 
             <div className="mt-16 grid gap-8 sm:grid-cols-2">
               {values.map((v) => (
-                <div key={v.title} className="flex gap-5 rounded-2xl bg-white border border-[#e2e5eb] p-8">
-                  <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[#B87333]/10 text-[#B87333]">
+                <div key={v.title} className="flex gap-5 rounded-2xl bg-white border border-[#D8DCE8] p-8">
+                  <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[#C84B31]/10 text-[#C84B31]">
                     <v.icon />
                   </div>
                   <div>
-                    <h3 className="font-[var(--font-heading)] text-lg text-[#1a1d23]">{v.title}</h3>
-                    <p className="mt-2 font-[var(--font-body)] text-sm leading-relaxed text-[#6b7080]">{v.description}</p>
+                    <h3 className="font-[var(--font-heading)] text-lg text-[#141B2D]">{v.title}</h3>
+                    <p className="mt-2 font-[var(--font-body)] text-sm leading-relaxed text-[#647291]">{v.description}</p>
                   </div>
                 </div>
               ))}
@@ -199,7 +199,7 @@ export default function AboutPage() {
         <section className="py-24 bg-white">
           <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
             <div className="text-center">
-              <h2 className="font-[var(--font-heading)] text-3xl text-[#1a1d23] sm:text-4xl">
+              <h2 className="font-[var(--font-heading)] text-3xl text-[#141B2D] sm:text-4xl">
                 20 years of building trust
               </h2>
             </div>
@@ -209,18 +209,18 @@ export default function AboutPage() {
                 <div key={i} className="flex gap-6 pb-8 last:pb-0">
                   {/* Timeline line */}
                   <div className="flex flex-col items-center">
-                    <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-[#B87333] text-white font-[var(--font-body)] text-xs font-bold">
+                    <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-[#C84B31] text-white font-[var(--font-body)] text-xs font-bold">
                       {item.year.slice(-2)}
                     </div>
                     {i < timeline.length - 1 && (
-                      <div className="w-px flex-1 bg-[#e2e5eb] mt-2" />
+                      <div className="w-px flex-1 bg-[#D8DCE8] mt-2" />
                     )}
                   </div>
                   <div className="pt-2 pb-6">
-                    <p className="font-[var(--font-body)] text-xs font-semibold uppercase tracking-wider text-[#B87333]">
+                    <p className="font-[var(--font-body)] text-xs font-semibold uppercase tracking-wider text-[#C84B31]">
                       {item.year}
                     </p>
-                    <p className="mt-1 font-[var(--font-body)] text-base text-[#4a4e5a]">
+                    <p className="mt-1 font-[var(--font-body)] text-base text-[#45506B]">
                       {item.event}
                     </p>
                   </div>
@@ -231,18 +231,18 @@ export default function AboutPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-20 bg-[#1a1d23]">
+        <section className="py-20 bg-[#141B2D]">
           <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="font-[var(--font-heading)] text-3xl text-white sm:text-4xl">
               Ready to work with us?
             </h2>
-            <p className="mt-4 font-[var(--font-body)] text-lg text-[#9ca1af]">
+            <p className="mt-4 font-[var(--font-body)] text-lg text-[#8E9AB3]">
               Call for a free estimate. No pressure, just honest advice from Tim
               and Timmy.
             </p>
             <a
               href="tel:+17177767319"
-              className="mt-8 inline-flex items-center gap-3 rounded-xl bg-[#B87333] px-10 py-4 font-[var(--font-body)] text-lg font-semibold text-white shadow-lg shadow-[#B87333]/20 transition-all hover:bg-[#D4956B] hover:-translate-y-0.5"
+              className="mt-8 inline-flex items-center gap-3 rounded-xl bg-[#C84B31] px-10 py-4 font-[var(--font-body)] text-lg font-semibold text-white shadow-lg shadow-[#C84B31]/20 transition-all hover:bg-[#E07A5F] hover:-translate-y-0.5"
             >
               <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />

@@ -32,7 +32,7 @@ const serviceCategories = [
   },
   {
     category: "Construction",
-    color: "#B87333",
+    color: "#C84B31",
     description: "From foundations to finished structures. Residential and light commercial.",
     services: [
       { name: "Home Additions", detail: "Room additions, bump-outs, and second-story additions." },
@@ -85,11 +85,11 @@ export default function ServicesPage() {
       <Header />
       <main>
         {/* Page hero */}
-        <section className="relative pt-32 pb-20 bg-[#1a1d23] overflow-hidden">
+        <section className="relative pt-32 pb-20 bg-[#141B2D] overflow-hidden">
           <div className="absolute inset-0 stripe-pattern opacity-20" />
-          <div className="absolute -top-40 -left-40 h-[500px] w-[500px] rounded-full bg-[#B87333]/8 blur-[100px]" />
+          <div className="absolute -top-40 -left-40 h-[500px] w-[500px] rounded-full bg-[#C84B31]/8 blur-[100px]" />
           <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <p className="font-[var(--font-body)] text-sm font-semibold uppercase tracking-widest text-[#B87333]">
+            <p className="font-[var(--font-body)] text-sm font-semibold uppercase tracking-widest text-[#C84B31]">
               Our Services
             </p>
             <h1 className="mt-3 font-[var(--font-heading)] text-4xl text-white sm:text-5xl md:text-6xl">
@@ -97,14 +97,14 @@ export default function ServicesPage() {
               <br />
               <span className="text-copper-gradient">One crew.</span>
             </h1>
-            <p className="mt-6 max-w-2xl font-[var(--font-body)] text-lg text-[#9ca1af] leading-relaxed">
+            <p className="mt-6 max-w-2xl font-[var(--font-body)] text-lg text-[#8E9AB3] leading-relaxed">
               Plumbing, construction, electrical, and remodeling — all performed
               by Tim & Timmy Barrick. No subcontractors. No middlemen. Just
               skilled tradesmen who take pride in their work.
             </p>
             <a
               href="tel:+17177767319"
-              className="mt-8 inline-flex items-center gap-3 rounded-xl bg-[#B87333] px-8 py-4 font-[var(--font-body)] text-base font-semibold text-white transition-all hover:bg-[#D4956B]"
+              className="mt-8 inline-flex items-center gap-3 rounded-xl bg-[#C84B31] px-8 py-4 font-[var(--font-body)] text-base font-semibold text-white transition-all hover:bg-[#E07A5F]"
             >
               Get a Free Estimate — (717) 776-7319
             </a>
@@ -115,7 +115,7 @@ export default function ServicesPage() {
         {serviceCategories.map((cat) => (
           <section
             key={cat.category}
-            className="py-20 border-b border-[#e2e5eb] last:border-0 odd:bg-white even:bg-[#f8f9fa]"
+            className="py-20 border-b border-[#D8DCE8] last:border-0 odd:bg-white even:bg-[#F4F5F7]"
           >
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="flex items-center gap-4 mb-4">
@@ -123,11 +123,11 @@ export default function ServicesPage() {
                   className="h-1.5 w-12 rounded-full"
                   style={{ backgroundColor: cat.color }}
                 />
-                <h2 className="font-[var(--font-heading)] text-3xl text-[#1a1d23]">
+                <h2 className="font-[var(--font-heading)] text-3xl text-[#141B2D]">
                   {cat.category}
                 </h2>
               </div>
-              <p className="mb-10 max-w-xl font-[var(--font-body)] text-base text-[#6b7080]">
+              <p className="mb-10 max-w-xl font-[var(--font-body)] text-base text-[#647291]">
                 {cat.description}
               </p>
 
@@ -135,11 +135,11 @@ export default function ServicesPage() {
                 {cat.services.map((s) => (
                   <div
                     key={s.name}
-                    className="rounded-xl border border-[#e2e5eb] bg-white p-6 transition-all hover:border-[#B87333]/30 hover:shadow-sm"
+                    className="rounded-xl border border-[#D8DCE8] bg-white p-6 transition-all hover:border-[#C84B31]/30 hover:shadow-sm"
                   >
                     <div className="flex items-start gap-3">
                       <svg
-                        className="mt-0.5 h-5 w-5 flex-shrink-0 text-[#B87333]"
+                        className="mt-0.5 h-5 w-5 flex-shrink-0 text-[#C84B31]"
                         fill="currentColor"
                         viewBox="0 0 20 20"
                       >
@@ -150,10 +150,10 @@ export default function ServicesPage() {
                         />
                       </svg>
                       <div>
-                        <h3 className="font-[var(--font-body)] text-sm font-semibold text-[#1a1d23]">
+                        <h3 className="font-[var(--font-body)] text-sm font-semibold text-[#141B2D]">
                           {s.name}
                         </h3>
-                        <p className="mt-1 font-[var(--font-body)] text-xs text-[#6b7080] leading-relaxed">
+                        <p className="mt-1 font-[var(--font-body)] text-xs text-[#647291] leading-relaxed">
                           {s.detail}
                         </p>
                       </div>
@@ -166,18 +166,18 @@ export default function ServicesPage() {
         ))}
 
         {/* Bottom CTA */}
-        <section className="py-20 bg-[#1a1d23]">
+        <section className="py-20 bg-[#141B2D]">
           <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="font-[var(--font-heading)] text-3xl text-white sm:text-4xl">
               Don&apos;t see what you need?
             </h2>
-            <p className="mt-4 font-[var(--font-body)] text-lg text-[#9ca1af]">
+            <p className="mt-4 font-[var(--font-body)] text-lg text-[#8E9AB3]">
               If it involves plumbing, construction, or your home — chances are
               we do it. Call Tim and ask. Free estimates, no obligation.
             </p>
             <a
               href="tel:+17177767319"
-              className="mt-8 inline-flex items-center gap-3 rounded-xl bg-[#B87333] px-10 py-4 font-[var(--font-body)] text-lg font-semibold text-white shadow-lg shadow-[#B87333]/20 transition-all hover:bg-[#D4956B] hover:-translate-y-0.5"
+              className="mt-8 inline-flex items-center gap-3 rounded-xl bg-[#C84B31] px-10 py-4 font-[var(--font-body)] text-lg font-semibold text-white shadow-lg shadow-[#C84B31]/20 transition-all hover:bg-[#E07A5F] hover:-translate-y-0.5"
             >
               Call (717) 776-7319
             </a>

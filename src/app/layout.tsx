@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
-import { DM_Serif_Display, Outfit } from "next/font/google";
+import { Bitter, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
-const dmSerif = DM_Serif_Display({
-  variable: "--font-dm-serif",
+const bitter = Bitter({
+  variable: "--font-bitter",
   subsets: ["latin"],
-  weight: "400",
+  weight: ["400", "700"],
   display: "swap",
 });
 
-const outfit = Outfit({
-  variable: "--font-outfit",
+const plusJakartaSans = Plus_Jakarta_Sans({
+  variable: "--font-plus-jakarta-sans",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
   display: "swap",
@@ -105,6 +105,8 @@ const jsonLd = {
   ],
 };
 
+const structuredData = JSON.stringify(jsonLd);
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -114,14 +116,14 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <meta name="theme-color" content="#B87333" />
+        <meta name="theme-color" content="#C84B31" />
         <script
           type="application/ld+json"
           suppressHydrationWarning
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: structuredData }}
         />
       </head>
-      <body className={`${dmSerif.variable} ${outfit.variable} antialiased`}>
+      <body className={`${bitter.variable} ${plusJakartaSans.variable} antialiased`}>
         {children}
       </body>
     </html>

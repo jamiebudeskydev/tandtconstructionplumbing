@@ -40,10 +40,10 @@ const platforms = [
 
 export default function ReviewAuthority() {
   return (
-    <section className="relative py-12 bg-white border-b border-[#e2e5eb]">
+    <section className="relative py-12 bg-white border-b border-[#D8DCE8]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
-          <p className="font-[var(--font-body)] text-sm font-medium text-[#6b7080]">
+          <p className="font-[var(--font-body)] text-sm font-medium text-[#647291]">
             Trusted across the top review platforms
           </p>
         </div>
@@ -55,7 +55,7 @@ export default function ReviewAuthority() {
               href={p.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center gap-3 rounded-xl border border-[#e2e5eb] bg-[#f8f9fa] px-5 py-3.5 transition-all hover:border-[#B87333]/40 hover:shadow-md hover:-translate-y-0.5"
+              className="group flex items-center gap-3 rounded-xl border border-[#D8DCE8] bg-[#F4F5F7] px-5 py-3.5 transition-all hover:border-[#C84B31]/40 hover:shadow-md hover:-translate-y-0.5"
             >
               {/* Platform color dot */}
               <div
@@ -64,11 +64,11 @@ export default function ReviewAuthority() {
               />
 
               <div className="flex items-baseline gap-1.5">
-                <span className="font-[var(--font-body)] text-lg font-bold text-[#1a1d23]">
+                <span className="font-[var(--font-body)] text-lg font-bold text-[#141B2D]">
                   {p.rating}
                 </span>
                 {p.label ? (
-                  <span className="font-[var(--font-body)] text-xs text-[#6b7080]">
+                  <span className="font-[var(--font-body)] text-xs text-[#647291]">
                     {p.label}
                   </span>
                 ) : (
@@ -81,7 +81,7 @@ export default function ReviewAuthority() {
                           className={`h-3 w-3 ${
                             i < Math.round(parseFloat(p.rating))
                               ? "text-amber-400"
-                              : "text-[#e2e5eb]"
+                              : "text-[#D8DCE8]"
                           }`}
                           fill="currentColor"
                           viewBox="0 0 20 20"
@@ -95,11 +95,11 @@ export default function ReviewAuthority() {
               </div>
 
               <div className="flex flex-col">
-                <span className="font-[var(--font-body)] text-xs font-semibold text-[#1a1d23]">
+                <span className="font-[var(--font-body)] text-xs font-semibold text-[#141B2D]">
                   {p.name}
                 </span>
                 {p.reviews && (
-                  <span className="font-[var(--font-body)] text-[10px] text-[#6b7080]">
+                  <span className="font-[var(--font-body)] text-[10px] text-[#647291]">
                     {p.reviews} reviews
                   </span>
                 )}
@@ -107,7 +107,7 @@ export default function ReviewAuthority() {
 
               {/* External link icon */}
               <svg
-                className="h-3.5 w-3.5 text-[#9ca1af] opacity-0 transition-opacity group-hover:opacity-100"
+                className="h-3.5 w-3.5 text-[#8E9AB3] opacity-0 transition-opacity group-hover:opacity-100"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"

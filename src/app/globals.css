@@ -3,28 +3,28 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-copper: #B87333;
-  --color-copper-light: #D4956B;
-  --color-copper-dark: #8B5A2B;
-  --color-slate-900: #1a1d23;
-  --color-slate-800: #252830;
-  --color-slate-700: #353842;
-  --color-slate-600: #4a4e5a;
-  --color-slate-500: #6b7080;
-  --color-slate-400: #9ca1af;
-  --color-slate-300: #c8ccd6;
-  --color-slate-200: #e2e5eb;
-  --color-slate-100: #f1f2f5;
-  --color-slate-50: #f8f9fa;
-  --color-cream: #faf8f5;
-  --color-warm-white: #fdfcfa;
-  --font-heading: var(--font-dm-serif);
-  --font-body: var(--font-outfit);
+  --color-copper: #C84B31;
+  --color-copper-light: #E07A5F;
+  --color-copper-dark: #9B3922;
+  --color-slate-900: #141B2D;
+  --color-slate-800: #1E2640;
+  --color-slate-700: #2D3554;
+  --color-slate-600: #45506B;
+  --color-slate-500: #647291;
+  --color-slate-400: #8E9AB3;
+  --color-slate-300: #B8C0D2;
+  --color-slate-200: #D8DCE8;
+  --color-slate-100: #ECEEF3;
+  --color-slate-50: #F4F5F7;
+  --color-cream: #F7F6F4;
+  --color-warm-white: #FAFBFC;
+  --font-heading: var(--font-bitter);
+  --font-body: var(--font-plus-jakarta-sans);
 }
 
 :root {
-  --background: #fdfcfa;
-  --foreground: #1a1d23;
+  --background: #FAFBFC;
+  --foreground: #141B2D;
 }
 
 /* Noise texture overlay */
@@ -32,26 +32,26 @@
   content: "";
   position: absolute;
   inset: 0;
-  opacity: 0.03;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
   pointer-events: none;
   z-index: 1;
 }
 
-/* Diagonal stripe pattern */
+/* Diagonal stripe pattern — forged steel hatching */
 .stripe-pattern {
   background-image: repeating-linear-gradient(
     -45deg,
     transparent,
-    transparent 2px,
-    rgba(184, 115, 51, 0.06) 2px,
-    rgba(184, 115, 51, 0.06) 4px
+    transparent 3px,
+    rgba(200, 75, 49, 0.05) 3px,
+    rgba(200, 75, 49, 0.05) 5px
   );
 }
 
-/* Copper gradient text */
+/* Accent gradient text */
 .text-copper-gradient {
-  background: linear-gradient(135deg, #B87333 0%, #D4956B 50%, #B87333 100%);
+  background: linear-gradient(135deg, #C84B31 0%, #E07A5F 40%, #C84B31 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -138,10 +138,10 @@
 
 .service-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px -12px rgba(20, 27, 45, 0.18);
 }
 
-/* Copper underline animation */
+/* Accent underline animation */
 .copper-underline {
   position: relative;
   display: inline-block;
@@ -154,17 +154,17 @@
   left: 0;
   width: 60px;
   height: 3px;
-  background: linear-gradient(90deg, #B87333, #D4956B);
+  background: linear-gradient(90deg, #C84B31, #E07A5F);
   border-radius: 2px;
 }
 
 /* Phone CTA pulse */
 @keyframes pulse-copper {
   0%, 100% {
-    box-shadow: 0 0 0 0 rgba(184, 115, 51, 0.4);
+    box-shadow: 0 0 0 0 rgba(200, 75, 49, 0.4);
   }
   50% {
-    box-shadow: 0 0 0 12px rgba(184, 115, 51, 0);
+    box-shadow: 0 0 0 12px rgba(200, 75, 49, 0);
   }
 }
 
@@ -186,6 +186,6 @@ body {
 
 /* Selection color */
 ::selection {
-  background: rgba(184, 115, 51, 0.2);
-  color: #1a1d23;
+  background: rgba(200, 75, 49, 0.15);
+  color: #141B2D;
 }

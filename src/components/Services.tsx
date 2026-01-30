@@ -59,17 +59,17 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="relative py-24 md:py-32 bg-[#f8f9fa]">
+    <section id="services" className="relative py-24 md:py-32 bg-[#F4F5F7]">
       {/* Section header */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
-          <p className="font-[var(--font-body)] text-sm font-semibold uppercase tracking-widest text-[#B87333]">
+          <p className="font-[var(--font-body)] text-sm font-semibold uppercase tracking-widest text-[#C84B31]">
             What We Do
           </p>
-          <h2 className="mt-3 font-[var(--font-heading)] text-3xl text-[#1a1d23] sm:text-4xl md:text-5xl">
+          <h2 className="mt-3 font-[var(--font-heading)] text-3xl text-[#141B2D] sm:text-4xl md:text-5xl">
             One call handles it all
           </h2>
-          <p className="mt-4 font-[var(--font-body)] text-lg leading-relaxed text-[#6b7080]">
+          <p className="mt-4 font-[var(--font-body)] text-lg leading-relaxed text-[#647291]">
             Plumbing, construction, electrical, and remodeling — all under one
             roof. No juggling multiple contractors. Tim and Timmy bring 20+ years
             of expertise to every project.
@@ -81,21 +81,21 @@ export default function Services() {
           {services.map((service) => (
             <div
               key={service.title}
-              className="service-card group relative rounded-2xl border border-[#e2e5eb] bg-white p-8 overflow-hidden"
+              className="service-card group relative rounded-2xl border border-[#D8DCE8] bg-white p-8 overflow-hidden"
             >
               {/* Top accent line */}
-              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#B87333] to-[#D4956B] opacity-0 transition-opacity group-hover:opacity-100" />
+              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#C84B31] to-[#E07A5F] opacity-0 transition-opacity group-hover:opacity-100" />
 
               {/* Icon */}
-              <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-[#B87333]/10 text-[#B87333] transition-colors group-hover:bg-[#B87333] group-hover:text-white">
+              <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-[#C84B31]/10 text-[#C84B31] transition-colors group-hover:bg-[#C84B31] group-hover:text-white">
                 <service.icon />
               </div>
 
               {/* Content */}
-              <h3 className="mt-6 font-[var(--font-heading)] text-xl text-[#1a1d23]">
+              <h3 className="mt-6 font-[var(--font-heading)] text-xl text-[#141B2D]">
                 {service.title}
               </h3>
-              <p className="mt-3 font-[var(--font-body)] text-sm leading-relaxed text-[#6b7080]">
+              <p className="mt-3 font-[var(--font-body)] text-sm leading-relaxed text-[#647291]">
                 {service.description}
               </p>
 
@@ -104,10 +104,10 @@ export default function Services() {
                 {service.items.map((item) => (
                   <li
                     key={item}
-                    className="flex items-center gap-2 font-[var(--font-body)] text-sm text-[#4a4e5a]"
+                    className="flex items-center gap-2 font-[var(--font-body)] text-sm text-[#45506B]"
                   >
                     <svg
-                      className="h-3.5 w-3.5 flex-shrink-0 text-[#B87333]"
+                      className="h-3.5 w-3.5 flex-shrink-0 text-[#C84B31]"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -126,21 +126,21 @@ export default function Services() {
         </div>
 
         {/* Bottom CTA */}
-        <div className="mt-16 rounded-2xl bg-[#1a1d23] p-8 md:p-12 relative overflow-hidden">
+        <div className="mt-16 rounded-2xl bg-[#141B2D] p-8 md:p-12 relative overflow-hidden">
           <div className="absolute inset-0 stripe-pattern opacity-30" />
           <div className="relative z-10 flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
             <div>
               <h3 className="font-[var(--font-heading)] text-2xl text-white md:text-3xl">
                 Not sure what you need?
               </h3>
-              <p className="mt-2 font-[var(--font-body)] text-[#9ca1af]">
+              <p className="mt-2 font-[var(--font-body)] text-[#8E9AB3]">
                 Call us for a free estimate. We&apos;ll assess your project and
                 give you honest options.
               </p>
             </div>
             <a
               href="tel:+17177767319"
-              className="inline-flex items-center gap-3 rounded-xl bg-[#B87333] px-8 py-4 font-[var(--font-body)] text-base font-semibold text-white shadow-lg shadow-[#B87333]/20 transition-all hover:bg-[#D4956B] hover:-translate-y-0.5 whitespace-nowrap"
+              className="inline-flex items-center gap-3 rounded-xl bg-[#C84B31] px-8 py-4 font-[var(--font-body)] text-base font-semibold text-white shadow-lg shadow-[#C84B31]/20 transition-all hover:bg-[#E07A5F] hover:-translate-y-0.5 whitespace-nowrap"
             >
               <svg
                 className="h-5 w-5"

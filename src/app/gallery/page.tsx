@@ -20,7 +20,7 @@ const projects = [
   {
     title: "Trex Composite Deck Build",
     category: "Construction",
-    color: "#B87333",
+    color: "#C84B31",
     description:
       "Custom-built composite deck with integrated railing system. Low-maintenance Trex decking with hidden fasteners.",
     icon: "deck",
@@ -44,7 +44,7 @@ const projects = [
   {
     title: "Home Addition — Sunroom",
     category: "Construction",
-    color: "#B87333",
+    color: "#C84B31",
     description:
       "Three-season sunroom addition with foundation, framing, roofing, and full electrical. Seamless tie-in to existing structure.",
     icon: "addition",
@@ -68,7 +68,7 @@ const projects = [
   {
     title: "Covered Deck with Awning",
     category: "Construction",
-    color: "#B87333",
+    color: "#C84B31",
     description:
       "Pressure-treated deck with aluminum awning system. Built-in bench seating and multi-level step design.",
     icon: "awning",
@@ -100,7 +100,7 @@ const projects = [
   {
     title: "Barn Construction",
     category: "Construction",
-    color: "#B87333",
+    color: "#C84B31",
     description:
       "Agricultural barn build from foundation to roofing. Post-frame construction with metal siding and overhead door installation.",
     icon: "barn",
@@ -144,17 +144,17 @@ export default function GalleryPage() {
       <Header />
       <main>
         {/* Page hero */}
-        <section className="relative pt-32 pb-20 bg-[#1a1d23] overflow-hidden">
+        <section className="relative pt-32 pb-20 bg-[#141B2D] overflow-hidden">
           <div className="absolute inset-0 stripe-pattern opacity-20" />
-          <div className="absolute -bottom-40 -right-40 h-[500px] w-[500px] rounded-full bg-[#B87333]/8 blur-[100px]" />
+          <div className="absolute -bottom-40 -right-40 h-[500px] w-[500px] rounded-full bg-[#C84B31]/8 blur-[100px]" />
           <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <p className="font-[var(--font-body)] text-sm font-semibold uppercase tracking-widest text-[#B87333]">
+            <p className="font-[var(--font-body)] text-sm font-semibold uppercase tracking-widest text-[#C84B31]">
               Our Work
             </p>
             <h1 className="mt-3 font-[var(--font-heading)] text-4xl text-white sm:text-5xl md:text-6xl">
               Projects built to last.
             </h1>
-            <p className="mt-6 max-w-2xl font-[var(--font-body)] text-lg text-[#9ca1af] leading-relaxed">
+            <p className="mt-6 max-w-2xl font-[var(--font-body)] text-lg text-[#8E9AB3] leading-relaxed">
               From emergency plumbing repairs to full home additions, every
               project gets the same attention to detail. Here&apos;s a look at
               the kind of work Tim & Timmy deliver across the Cumberland Valley.
@@ -163,7 +163,7 @@ export default function GalleryPage() {
         </section>
 
         {/* Category filter pills */}
-        <section className="bg-white border-b border-[#e2e5eb]">
+        <section className="bg-white border-b border-[#D8DCE8]">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="flex items-center gap-3 py-5 overflow-x-auto">
               {["All", "Plumbing", "Construction", "Remodeling", "Electrical"].map(
@@ -172,12 +172,12 @@ export default function GalleryPage() {
                     key={cat}
                     className={`inline-flex items-center gap-1.5 rounded-full px-4 py-2 font-[var(--font-body)] text-sm font-medium whitespace-nowrap transition-colors ${
                       i === 0
-                        ? "bg-[#1a1d23] text-white"
-                        : "bg-[#f1f2f4] text-[#6b7080] hover:bg-[#e2e5eb]"
+                        ? "bg-[#141B2D] text-white"
+                        : "bg-[#ECEEF3] text-[#647291] hover:bg-[#D8DCE8]"
                     }`}
                   >
                     {i === 0 && (
-                      <span className="h-1.5 w-1.5 rounded-full bg-[#B87333]" />
+                      <span className="h-1.5 w-1.5 rounded-full bg-[#C84B31]" />
                     )}
                     {cat}
                   </span>
@@ -188,13 +188,13 @@ export default function GalleryPage() {
         </section>
 
         {/* Project grid */}
-        <section className="py-16 bg-[#f8f9fa]">
+        <section className="py-16 bg-[#F4F5F7]">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {projects.map((project) => (
                 <article
                   key={project.title}
-                  className="group relative overflow-hidden rounded-2xl bg-white border border-[#e2e5eb] transition-all hover:shadow-lg hover:border-[#B87333]/30 hover:-translate-y-1"
+                  className="group relative overflow-hidden rounded-2xl bg-white border border-[#D8DCE8] transition-all hover:shadow-lg hover:border-[#C84B31]/30 hover:-translate-y-1"
                 >
                   {/* Image placeholder — replace with next/image when photos available */}
                   <div
@@ -236,10 +236,10 @@ export default function GalleryPage() {
 
                   {/* Content */}
                   <div className="p-6">
-                    <h3 className="font-[var(--font-heading)] text-lg text-[#1a1d23]">
+                    <h3 className="font-[var(--font-heading)] text-lg text-[#141B2D]">
                       {project.title}
                     </h3>
-                    <p className="mt-2 font-[var(--font-body)] text-sm leading-relaxed text-[#6b7080]">
+                    <p className="mt-2 font-[var(--font-body)] text-sm leading-relaxed text-[#647291]">
                       {project.description}
                     </p>
                   </div>
@@ -249,9 +249,9 @@ export default function GalleryPage() {
 
             {/* Photo coming soon note */}
             <div className="mt-12 text-center">
-              <div className="inline-flex items-center gap-3 rounded-xl bg-white border border-[#e2e5eb] px-6 py-4">
+              <div className="inline-flex items-center gap-3 rounded-xl bg-white border border-[#D8DCE8] px-6 py-4">
                 <svg
-                  className="h-5 w-5 text-[#B87333]"
+                  className="h-5 w-5 text-[#C84B31]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -268,7 +268,7 @@ export default function GalleryPage() {
                     d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0z"
                   />
                 </svg>
-                <p className="font-[var(--font-body)] text-sm text-[#6b7080]">
+                <p className="font-[var(--font-body)] text-sm text-[#647291]">
                   Project photos coming soon. Call us to see examples of our
                   recent work.
                 </p>
@@ -278,18 +278,18 @@ export default function GalleryPage() {
         </section>
 
         {/* Bottom CTA */}
-        <section className="py-20 bg-[#1a1d23]">
+        <section className="py-20 bg-[#141B2D]">
           <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="font-[var(--font-heading)] text-3xl text-white sm:text-4xl">
               Ready to start your project?
             </h2>
-            <p className="mt-4 font-[var(--font-body)] text-lg text-[#9ca1af]">
+            <p className="mt-4 font-[var(--font-body)] text-lg text-[#8E9AB3]">
               Every project starts with a free estimate. Call Tim and
               let&apos;s talk through what you need.
             </p>
             <a
               href="tel:+17177767319"
-              className="mt-8 inline-flex items-center gap-3 rounded-xl bg-[#B87333] px-10 py-4 font-[var(--font-body)] text-lg font-semibold text-white shadow-lg shadow-[#B87333]/20 transition-all hover:bg-[#D4956B] hover:-translate-y-0.5"
+              className="mt-8 inline-flex items-center gap-3 rounded-xl bg-[#C84B31] px-10 py-4 font-[var(--font-body)] text-lg font-semibold text-white shadow-lg shadow-[#C84B31]/20 transition-all hover:bg-[#E07A5F] hover:-translate-y-0.5"
             >
               Call (717) 776-7319
             </a>
