@@ -123,7 +123,16 @@ export default function Footer() {
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 md:flex-row">
           <p className="font-[var(--font-body)] text-xs text-[#45506B]">
             &copy; {currentYear} T & T Construction & Plumbing. All rights
-            reserved. PA License #PA001752.
+            reserved. PA License #PA001752. | Designed with{" "}
+            <span className="text-[#C84B31]">&hearts;</span> by{" "}
+            <a
+              href="https://jamiebudesky.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#647291] transition-colors hover:text-[#E07A5F]"
+            >
+              jamiebudesky.dev
+            </a>
           </p>
           <p className="font-[var(--font-body)] text-xs text-[#45506B]">
             61 Fickes Rd, Newville, PA 17241 &bull; (717) 776-7319
