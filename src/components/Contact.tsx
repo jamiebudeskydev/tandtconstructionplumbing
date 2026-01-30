@@ -164,23 +164,39 @@ export default function Contact() {
 
             <div className="mt-6 flex flex-wrap gap-2">
               {[
-                "Newville",
-                "Carlisle",
-                "Shippensburg",
-                "Walnut Bottom",
-                "Big Spring",
-                "Plainfield",
-                "Mechanicsburg",
-                "Camp Hill",
-                "Cumberland County",
-              ].map((area) => (
-                <span
-                  key={area}
-                  className="rounded-full border border-[#D8DCE8] bg-[#F4F5F7] px-3 py-1.5 font-[var(--font-body)] text-xs font-medium text-[#45506B]"
-                >
-                  {area}
-                </span>
-              ))}
+                { name: "Newville", slug: null },
+                { name: "Carlisle", slug: "carlisle-pa" },
+                { name: "Shippensburg", slug: "shippensburg-pa" },
+                { name: "Walnut Bottom", slug: "walnut-bottom-pa" },
+                { name: "Big Spring", slug: null },
+                { name: "Plainfield", slug: "plainfield-pa" },
+                { name: "Mechanicsburg", slug: "mechanicsburg-pa" },
+                { name: "Camp Hill", slug: "camp-hill-pa" },
+                { name: "Cumberland County", slug: null },
+              ].map((area) =>
+                area.slug ? (
+                  <a
+                    key={area.name}
+                    href={`/areas/${area.slug}`}
+                    className="rounded-full border border-[#D8DCE8] bg-[#F4F5F7] px-3 py-1.5 font-[var(--font-body)] text-xs font-medium text-[#45506B] transition-colors hover:border-[#C84B31]/30 hover:text-[#C84B31]"
+                  >
+                    {area.name}
+                  </a>
+                ) : (
+                  <span
+                    key={area.name}
+                    className="rounded-full border border-[#D8DCE8] bg-[#F4F5F7] px-3 py-1.5 font-[var(--font-body)] text-xs font-medium text-[#45506B]"
+                  >
+                    {area.name}
+                  </span>
+                )
+              )}
+              <a
+                href="/areas"
+                className="rounded-full border border-[#C84B31]/20 bg-[#C84B31]/5 px-3 py-1.5 font-[var(--font-body)] text-xs font-medium text-[#C84B31] transition-colors hover:bg-[#C84B31]/10"
+              >
+                All Areas &rarr;
+              </a>
             </div>
 
             {/* Map embed placeholder */}

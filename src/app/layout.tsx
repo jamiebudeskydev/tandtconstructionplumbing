@@ -100,8 +100,24 @@ const jsonLd = {
   description:
     "Family-owned construction and plumbing serving the Cumberland Valley since 2006.",
   areaServed: [
-    "Newville", "Carlisle", "Shippensburg", "Walnut Bottom",
-    "Cumberland Valley", "Cumberland County",
+    "Newville",
+    "Carlisle",
+    "Mechanicsburg",
+    "Camp Hill",
+    "Shippensburg",
+    "Boiling Springs",
+    "Mount Holly Springs",
+    "Enola",
+    "New Cumberland",
+    "Lemoyne",
+    "Dillsburg",
+    "Shiremanstown",
+    "Newburg",
+    "Plainfield",
+    "Walnut Bottom",
+    "Wormleysburg",
+    "Cumberland Valley",
+    "Cumberland County",
   ],
 };
 

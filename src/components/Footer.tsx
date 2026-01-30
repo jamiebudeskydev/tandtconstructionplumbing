@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#141B2D] border-t border-white/10">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3">
@@ -83,6 +83,35 @@ export default function Footer() {
                   {item}
                 </span>
               ))}
+            </nav>
+          </div>
+
+          {/* Service Areas */}
+          <div>
+            <h4 className="font-[var(--font-body)] text-sm font-semibold uppercase tracking-widest text-[#8E9AB3]">
+              Service Areas
+            </h4>
+            <nav className="mt-4 space-y-3">
+              {[
+                { href: "/areas/carlisle-pa", label: "Carlisle" },
+                { href: "/areas/mechanicsburg-pa", label: "Mechanicsburg" },
+                { href: "/areas/camp-hill-pa", label: "Camp Hill" },
+                { href: "/areas/shippensburg-pa", label: "Shippensburg" },
+              ].map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="block font-[var(--font-body)] text-sm text-[#647291] transition-colors hover:text-[#E07A5F]"
+                >
+                  {link.label}
+                </a>
+              ))}
+              <a
+                href="/areas"
+                className="block font-[var(--font-body)] text-sm font-medium text-[#E07A5F] transition-colors hover:text-[#C84B31]"
+              >
+                All Areas &rarr;
+              </a>
             </nav>
           </div>
         </div>
